@@ -1,0 +1,21 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ELIFECYCLE",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "react-me@0.1.0",
+    "stage": "start",
+    "script": "PORT=8081 react-scripts start",
+    "pkgname": "react-me",
+    "err": {
+      "name": "Error",
+      "message": "react-me@0.1.0 start: `PORT=8081 react-scripts start`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "Error: react-me@0.1.0 start: `PORT=8081 react-scripts start`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.2.1/node_modules/pnpm/dist/pnpm.cjs:91453:20)\n    at ChildProcess.emit (events.js:315:20)\n    at maybeClose (internal/child_process.js:1048:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)"
+    }
+  }
+}
